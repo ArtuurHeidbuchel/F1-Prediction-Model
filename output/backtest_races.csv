@@ -1,0 +1,181 @@
+model,season,round,race_name,predicted_winner,actual_winner,predicted_podium,actual_podium,winner_hit,podium_hit,podium_exact,spearman,mae_positions
+grid,2024,2,Saudi Arabian Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Charles Leclerc|Sergio Pérez,Max Verstappen|Sergio Pérez|Charles Leclerc,1,1,0,0.8316,2.5
+standings,2024,2,Saudi Arabian Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Sergio Pérez|Charles Leclerc,Max Verstappen|Sergio Pérez|Charles Leclerc,1,1,1,0.8812,1.8
+xgboost,2024,2,Saudi Arabian Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Sergio Pérez|Charles Leclerc,Max Verstappen|Sergio Pérez|Charles Leclerc,1,1,1,0.7489,3.0
+grid,2024,3,Australian Grand Prix,Max Verstappen,Carlos Sainz,Max Verstappen|Carlos Sainz|Lando Norris,Carlos Sainz|Charles Leclerc|Lando Norris,0,0,0,0.4474,3.895
+standings,2024,3,Australian Grand Prix,Max Verstappen,Carlos Sainz,Max Verstappen|Sergio Pérez|Charles Leclerc,Carlos Sainz|Charles Leclerc|Lando Norris,0,0,0,0.3561,4.526
+xgboost,2024,3,Australian Grand Prix,Max Verstappen,Carlos Sainz,Max Verstappen|Carlos Sainz|Charles Leclerc,Carlos Sainz|Charles Leclerc|Lando Norris,0,0,0,0.386,4.211
+grid,2024,4,Japanese Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Sergio Pérez|Lando Norris,Max Verstappen|Sergio Pérez|Carlos Sainz,1,0,0,0.8602,2.2
+standings,2024,4,Japanese Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Charles Leclerc|Sergio Pérez,Max Verstappen|Sergio Pérez|Carlos Sainz,1,0,0,0.9759,0.8
+xgboost,2024,4,Japanese Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Sergio Pérez|Lando Norris,Max Verstappen|Sergio Pérez|Carlos Sainz,1,0,0,0.8752,2.0
+grid,2024,5,Chinese Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Sergio Pérez|Fernando Alonso,Max Verstappen|Lando Norris|Sergio Pérez,1,0,0,0.7729,2.9
+standings,2024,5,Chinese Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Sergio Pérez|Charles Leclerc,Max Verstappen|Lando Norris|Sergio Pérez,1,0,0,0.8812,2.1
+xgboost,2024,5,Chinese Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Sergio Pérez|Charles Leclerc,Max Verstappen|Lando Norris|Sergio Pérez,1,0,0,0.8241,2.7
+grid,2024,6,Miami Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Charles Leclerc|Carlos Sainz,Lando Norris|Max Verstappen|Charles Leclerc,0,0,0,0.815,2.8
+standings,2024,6,Miami Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Sergio Pérez|Charles Leclerc,Lando Norris|Max Verstappen|Charles Leclerc,0,0,0,0.8331,2.6
+xgboost,2024,6,Miami Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Sergio Pérez|Charles Leclerc,Lando Norris|Max Verstappen|Charles Leclerc,0,0,0,0.782,3.1
+grid,2024,7,Emilia Romagna Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Charles Leclerc,Max Verstappen|Lando Norris|Charles Leclerc,1,1,1,0.8887,2.1
+standings,2024,7,Emilia Romagna Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Sergio Pérez|Charles Leclerc,Max Verstappen|Lando Norris|Charles Leclerc,1,0,0,0.8586,1.7
+xgboost,2024,7,Emilia Romagna Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Charles Leclerc,Max Verstappen|Lando Norris|Charles Leclerc,1,1,1,0.9083,1.8
+grid,2024,8,Monaco Grand Prix,Charles Leclerc,Charles Leclerc,Charles Leclerc|Oscar Piastri|Carlos Sainz,Charles Leclerc|Oscar Piastri|Carlos Sainz,1,1,1,0.9474,0.9
+standings,2024,8,Monaco Grand Prix,Max Verstappen,Charles Leclerc,Max Verstappen|Charles Leclerc|Lando Norris,Charles Leclerc|Oscar Piastri|Carlos Sainz,0,0,0,0.603,4.3
+xgboost,2024,8,Monaco Grand Prix,Charles Leclerc,Charles Leclerc,Charles Leclerc|Max Verstappen|Oscar Piastri,Charles Leclerc|Oscar Piastri|Carlos Sainz,1,0,0,0.812,2.7
+grid,2024,9,Canadian Grand Prix,George Russell,Max Verstappen,George Russell|Max Verstappen|Lando Norris,Max Verstappen|Lando Norris|George Russell,0,1,0,0.6632,4.0
+standings,2024,9,Canadian Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Charles Leclerc|Lando Norris,Max Verstappen|Lando Norris|George Russell,1,0,0,0.3368,5.0
+xgboost,2024,9,Canadian Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|George Russell,Max Verstappen|Lando Norris|George Russell,1,1,1,0.5654,4.2
+grid,2024,10,Spanish Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Max Verstappen|Lewis Hamilton,Max Verstappen|Lando Norris|Lewis Hamilton,0,1,0,0.9474,1.5
+standings,2024,10,Spanish Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Charles Leclerc,Max Verstappen|Lando Norris|Lewis Hamilton,1,0,0,0.8165,2.7
+xgboost,2024,10,Spanish Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Lewis Hamilton,Max Verstappen|Lando Norris|Lewis Hamilton,1,1,1,0.9414,1.0
+grid,2024,11,Austrian Grand Prix,Max Verstappen,George Russell,Max Verstappen|Lando Norris|George Russell,George Russell|Oscar Piastri|Carlos Sainz,0,0,0,0.6406,3.2
+standings,2024,11,Austrian Grand Prix,Max Verstappen,George Russell,Max Verstappen|Lando Norris|Charles Leclerc,George Russell|Oscar Piastri|Carlos Sainz,0,0,0,0.4316,4.7
+xgboost,2024,11,Austrian Grand Prix,Max Verstappen,George Russell,Max Verstappen|Lando Norris|George Russell,George Russell|Oscar Piastri|Carlos Sainz,0,0,0,0.6105,3.3
+grid,2024,12,British Grand Prix,George Russell,Lewis Hamilton,George Russell|Lewis Hamilton|Lando Norris,Lewis Hamilton|Max Verstappen|Lando Norris,0,0,0,0.6857,2.6
+standings,2024,12,British Grand Prix,Max Verstappen,Lewis Hamilton,Max Verstappen|Lando Norris|Charles Leclerc,Lewis Hamilton|Max Verstappen|Lando Norris,0,0,0,0.4541,4.5
+xgboost,2024,12,British Grand Prix,Max Verstappen,Lewis Hamilton,Max Verstappen|George Russell|Lewis Hamilton,Lewis Hamilton|Max Verstappen|Lando Norris,0,0,0,0.5759,3.8
+grid,2024,13,Hungarian Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|Oscar Piastri|Max Verstappen,Oscar Piastri|Lando Norris|Lewis Hamilton,0,0,0,0.818,2.5
+standings,2024,13,Hungarian Grand Prix,Max Verstappen,Oscar Piastri,Max Verstappen|Lando Norris|Charles Leclerc,Oscar Piastri|Lando Norris|Lewis Hamilton,0,0,0,0.9008,2.0
+xgboost,2024,13,Hungarian Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|Oscar Piastri|Max Verstappen,Oscar Piastri|Lando Norris|Lewis Hamilton,0,0,0,0.9323,1.8
+grid,2024,14,Belgian Grand Prix,Charles Leclerc,Lewis Hamilton,Charles Leclerc|Sergio Pérez|Lewis Hamilton,Lewis Hamilton|Oscar Piastri|Charles Leclerc,0,0,0,0.7368,2.8
+standings,2024,14,Belgian Grand Prix,Max Verstappen,Lewis Hamilton,Max Verstappen|Lando Norris|Charles Leclerc,Lewis Hamilton|Oscar Piastri|Charles Leclerc,0,0,0,0.7233,3.2
+xgboost,2024,14,Belgian Grand Prix,Lando Norris,Lewis Hamilton,Lando Norris|Charles Leclerc|Lewis Hamilton,Lewis Hamilton|Oscar Piastri|Charles Leclerc,0,0,0,0.7744,2.6
+grid,2024,15,Dutch Grand Prix,Lando Norris,Lando Norris,Lando Norris|Max Verstappen|Oscar Piastri,Lando Norris|Max Verstappen|Charles Leclerc,1,0,0,0.8466,2.5
+standings,2024,15,Dutch Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Lando Norris|Charles Leclerc,Lando Norris|Max Verstappen|Charles Leclerc,0,1,0,0.9263,1.5
+xgboost,2024,15,Dutch Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Lando Norris|Oscar Piastri,Lando Norris|Max Verstappen|Charles Leclerc,0,0,0,0.9323,1.8
+grid,2024,16,Italian Grand Prix,Lando Norris,Charles Leclerc,Lando Norris|Oscar Piastri|George Russell,Charles Leclerc|Oscar Piastri|Lando Norris,0,0,0,0.8782,2.1
+standings,2024,16,Italian Grand Prix,Max Verstappen,Charles Leclerc,Max Verstappen|Lando Norris|Charles Leclerc,Charles Leclerc|Oscar Piastri|Lando Norris,0,0,0,0.7173,3.4
+xgboost,2024,16,Italian Grand Prix,Max Verstappen,Charles Leclerc,Max Verstappen|Lando Norris|Oscar Piastri,Charles Leclerc|Oscar Piastri|Lando Norris,0,0,0,0.8286,2.8
+grid,2024,17,Azerbaijan Grand Prix,Charles Leclerc,Oscar Piastri,Charles Leclerc|Oscar Piastri|Carlos Sainz,Oscar Piastri|Charles Leclerc|George Russell,0,0,0,0.3865,4.4
+standings,2024,17,Azerbaijan Grand Prix,Max Verstappen,Oscar Piastri,Max Verstappen|Lando Norris|Charles Leclerc,Oscar Piastri|Charles Leclerc|George Russell,0,0,0,0.4346,5.0
+xgboost,2024,17,Azerbaijan Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Charles Leclerc|Max Verstappen,Oscar Piastri|Charles Leclerc|George Russell,1,0,0,0.585,4.0
+grid,2024,18,Singapore Grand Prix,Lando Norris,Lando Norris,Lando Norris|Max Verstappen|Lewis Hamilton,Lando Norris|Max Verstappen|Oscar Piastri,1,0,0,0.8256,2.7
+standings,2024,18,Singapore Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Lando Norris|Charles Leclerc,Lando Norris|Max Verstappen|Oscar Piastri,0,0,0,0.8316,2.8
+xgboost,2024,18,Singapore Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Lando Norris|Lewis Hamilton,Lando Norris|Max Verstappen|Oscar Piastri,0,0,0,0.8902,1.9
+grid,2024,19,United States Grand Prix,Lando Norris,Charles Leclerc,Lando Norris|Max Verstappen|Carlos Sainz,Charles Leclerc|Carlos Sainz|Max Verstappen,0,0,0,0.6195,3.8
+standings,2024,19,United States Grand Prix,Max Verstappen,Charles Leclerc,Max Verstappen|Lando Norris|Charles Leclerc,Charles Leclerc|Carlos Sainz|Max Verstappen,0,0,0,0.6677,3.5
+xgboost,2024,19,United States Grand Prix,Max Verstappen,Charles Leclerc,Max Verstappen|Lando Norris|Carlos Sainz,Charles Leclerc|Carlos Sainz|Max Verstappen,0,0,0,0.7639,2.8
+grid,2024,20,Mexico City Grand Prix,Carlos Sainz,Carlos Sainz,Carlos Sainz|Max Verstappen|Lando Norris,Carlos Sainz|Lando Norris|Charles Leclerc,1,0,0,0.6827,3.4
+standings,2024,20,Mexico City Grand Prix,Max Verstappen,Carlos Sainz,Max Verstappen|Lando Norris|Charles Leclerc,Carlos Sainz|Lando Norris|Charles Leclerc,0,0,0,0.6286,4.1
+xgboost,2024,20,Mexico City Grand Prix,Max Verstappen,Carlos Sainz,Max Verstappen|Lando Norris|Charles Leclerc,Carlos Sainz|Lando Norris|Charles Leclerc,0,0,0,0.7113,3.5
+grid,2024,21,São Paulo Grand Prix,Lando Norris,Max Verstappen,Lando Norris|George Russell|Yuki Tsunoda,Max Verstappen|Esteban Ocon|Pierre Gasly,0,0,0,0.4617,4.5
+standings,2024,21,São Paulo Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Charles Leclerc,Max Verstappen|Esteban Ocon|Pierre Gasly,1,0,0,0.3248,5.6
+xgboost,2024,21,São Paulo Grand Prix,Lando Norris,Max Verstappen,Lando Norris|George Russell|Charles Leclerc,Max Verstappen|Esteban Ocon|Pierre Gasly,0,0,0,0.5549,4.5
+grid,2024,22,Las Vegas Grand Prix,George Russell,George Russell,George Russell|Carlos Sainz|Pierre Gasly,George Russell|Lewis Hamilton|Carlos Sainz,1,0,0,0.6241,3.0
+standings,2024,22,Las Vegas Grand Prix,Max Verstappen,George Russell,Max Verstappen|Lando Norris|Charles Leclerc,George Russell|Lewis Hamilton|Carlos Sainz,0,0,0,0.812,3.2
+xgboost,2024,22,Las Vegas Grand Prix,Charles Leclerc,George Russell,Charles Leclerc|Lando Norris|George Russell,George Russell|Lewis Hamilton|Carlos Sainz,0,0,0,0.7534,2.9
+grid,2024,23,Qatar Grand Prix,George Russell,Max Verstappen,George Russell|Max Verstappen|Lando Norris,Max Verstappen|Charles Leclerc|Oscar Piastri,0,0,0,0.8105,2.7
+standings,2024,23,Qatar Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Charles Leclerc,Max Verstappen|Charles Leclerc|Oscar Piastri,1,0,0,0.5564,4.4
+xgboost,2024,23,Qatar Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Max Verstappen|Oscar Piastri,Max Verstappen|Charles Leclerc|Oscar Piastri,0,0,0,0.7188,3.3
+grid,2024,24,Abu Dhabi Grand Prix,Lando Norris,Lando Norris,Lando Norris|Oscar Piastri|Carlos Sainz,Lando Norris|Carlos Sainz|Charles Leclerc,1,0,0,0.4391,4.2
+standings,2024,24,Abu Dhabi Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Lando Norris|Charles Leclerc,Lando Norris|Carlos Sainz|Charles Leclerc,0,0,0,0.7669,2.9
+xgboost,2024,24,Abu Dhabi Grand Prix,Lando Norris,Lando Norris,Lando Norris|Max Verstappen|Oscar Piastri,Lando Norris|Carlos Sainz|Charles Leclerc,1,0,0,0.6932,3.2
+grid,2025,2,Chinese Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|George Russell|Lando Norris,Oscar Piastri|Lando Norris|George Russell,1,1,0,0.4421,4.9
+standings,2025,2,Chinese Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|Max Verstappen|George Russell,Oscar Piastri|Lando Norris|George Russell,0,0,0,0.6722,3.7
+xgboost,2025,2,Chinese Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|George Russell|Oscar Piastri,Oscar Piastri|Lando Norris|George Russell,0,1,0,0.3519,5.1
+grid,2025,3,Japanese Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,Max Verstappen|Lando Norris|Oscar Piastri,1,1,1,0.9639,0.9
+standings,2025,3,Japanese Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Max Verstappen|George Russell,Max Verstappen|Lando Norris|Oscar Piastri,0,0,0,0.6301,3.8
+xgboost,2025,3,Japanese Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Max Verstappen|Oscar Piastri,Max Verstappen|Lando Norris|Oscar Piastri,0,1,0,0.9639,1.0
+grid,2025,4,Bahrain Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Charles Leclerc|George Russell,Oscar Piastri|George Russell|Lando Norris,1,0,0,0.7158,3.2
+standings,2025,4,Bahrain Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|Max Verstappen|Oscar Piastri,Oscar Piastri|George Russell|Lando Norris,0,0,0,0.6602,4.0
+xgboost,2025,4,Bahrain Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|George Russell|Lando Norris,Oscar Piastri|George Russell|Lando Norris,1,1,1,0.8015,2.5
+grid,2025,5,Saudi Arabian Grand Prix,Max Verstappen,Oscar Piastri,Max Verstappen|Oscar Piastri|George Russell,Oscar Piastri|Max Verstappen|Charles Leclerc,0,0,0,0.7323,2.8
+standings,2025,5,Saudi Arabian Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|Oscar Piastri|Max Verstappen,Oscar Piastri|Max Verstappen|Charles Leclerc,0,0,0,0.7594,3.3
+xgboost,2025,5,Saudi Arabian Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Max Verstappen|George Russell,Oscar Piastri|Max Verstappen|Charles Leclerc,1,0,0,0.7789,2.5
+grid,2025,6,Miami Grand Prix,Max Verstappen,Oscar Piastri,Max Verstappen|Lando Norris|Andrea Kimi Antonelli,Oscar Piastri|Lando Norris|George Russell,0,0,0,0.8526,2.5
+standings,2025,6,Miami Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Lando Norris|Max Verstappen,Oscar Piastri|Lando Norris|George Russell,1,0,0,0.8586,2.3
+xgboost,2025,6,Miami Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|Max Verstappen|Oscar Piastri,Oscar Piastri|Lando Norris|George Russell,0,0,0,0.9474,1.3
+grid,2025,7,Emilia Romagna Grand Prix,Oscar Piastri,Max Verstappen,Oscar Piastri|Max Verstappen|George Russell,Max Verstappen|Lando Norris|Oscar Piastri,0,0,0,0.6977,3.6
+standings,2025,7,Emilia Romagna Grand Prix,Oscar Piastri,Max Verstappen,Oscar Piastri|Lando Norris|Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,0,1,0,0.618,3.8
+xgboost,2025,7,Emilia Romagna Grand Prix,Oscar Piastri,Max Verstappen,Oscar Piastri|George Russell|Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,0,0,0,0.7774,3.0
+grid,2025,8,Monaco Grand Prix,Lando Norris,Lando Norris,Lando Norris|Charles Leclerc|Oscar Piastri,Lando Norris|Charles Leclerc|Oscar Piastri,1,1,1,0.7383,2.8
+standings,2025,8,Monaco Grand Prix,Oscar Piastri,Lando Norris,Oscar Piastri|Lando Norris|Max Verstappen,Lando Norris|Charles Leclerc|Oscar Piastri,0,0,0,0.6692,3.6
+xgboost,2025,8,Monaco Grand Prix,Oscar Piastri,Lando Norris,Oscar Piastri|Lando Norris|Max Verstappen,Lando Norris|Charles Leclerc|Oscar Piastri,0,0,0,0.6662,3.7
+grid,2025,9,Spanish Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Lando Norris|Max Verstappen,Oscar Piastri|Lando Norris|Charles Leclerc,1,0,0,0.6088,3.263
+standings,2025,9,Spanish Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|Oscar Piastri|Max Verstappen,Oscar Piastri|Lando Norris|Charles Leclerc,0,0,0,0.4842,4.526
+xgboost,2025,9,Spanish Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Lando Norris|Max Verstappen,Oscar Piastri|Lando Norris|Charles Leclerc,1,0,0,0.5491,3.474
+grid,2025,10,Canadian Grand Prix,George Russell,George Russell,George Russell|Max Verstappen|Oscar Piastri,George Russell|Max Verstappen|Andrea Kimi Antonelli,1,0,0,0.6872,3.2
+standings,2025,10,Canadian Grand Prix,Oscar Piastri,George Russell,Oscar Piastri|Lando Norris|Max Verstappen,George Russell|Max Verstappen|Andrea Kimi Antonelli,0,0,0,0.4436,4.5
+xgboost,2025,10,Canadian Grand Prix,Oscar Piastri,George Russell,Oscar Piastri|Max Verstappen|George Russell,George Russell|Max Verstappen|Andrea Kimi Antonelli,0,0,0,0.6135,3.8
+grid,2025,11,Austrian Grand Prix,Lando Norris,Lando Norris,Lando Norris|Charles Leclerc|Oscar Piastri,Lando Norris|Oscar Piastri|Charles Leclerc,1,1,0,0.6466,3.2
+standings,2025,11,Austrian Grand Prix,Oscar Piastri,Lando Norris,Oscar Piastri|Lando Norris|Max Verstappen,Lando Norris|Oscar Piastri|Charles Leclerc,0,0,0,0.3278,4.9
+xgboost,2025,11,Austrian Grand Prix,Lando Norris,Lando Norris,Lando Norris|Oscar Piastri|Charles Leclerc,Lando Norris|Oscar Piastri|Charles Leclerc,1,1,1,0.5143,4.2
+grid,2025,12,British Grand Prix,Max Verstappen,Lando Norris,Max Verstappen|Oscar Piastri|Lando Norris,Lando Norris|Oscar Piastri|Nico Hülkenberg,0,0,0,0.4992,4.4
+standings,2025,12,British Grand Prix,Oscar Piastri,Lando Norris,Oscar Piastri|Lando Norris|Max Verstappen,Lando Norris|Oscar Piastri|Nico Hülkenberg,0,0,0,0.585,4.2
+xgboost,2025,12,British Grand Prix,Oscar Piastri,Lando Norris,Oscar Piastri|Lando Norris|Lewis Hamilton,Lando Norris|Oscar Piastri|Nico Hülkenberg,0,0,0,0.5353,4.2
+grid,2025,13,Belgian Grand Prix,Lando Norris,Oscar Piastri,Lando Norris|Oscar Piastri|Charles Leclerc,Oscar Piastri|Lando Norris|Charles Leclerc,0,1,0,0.7173,2.9
+standings,2025,13,Belgian Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Lando Norris|Max Verstappen,Oscar Piastri|Lando Norris|Charles Leclerc,1,0,0,0.6632,3.6
+xgboost,2025,13,Belgian Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Lando Norris|Charles Leclerc,Oscar Piastri|Lando Norris|Charles Leclerc,1,1,1,0.7729,2.7
+grid,2025,14,Hungarian Grand Prix,Charles Leclerc,Lando Norris,Charles Leclerc|Oscar Piastri|Lando Norris,Lando Norris|Oscar Piastri|George Russell,0,0,0,0.8481,2.3
+standings,2025,14,Hungarian Grand Prix,Oscar Piastri,Lando Norris,Oscar Piastri|Lando Norris|Max Verstappen,Lando Norris|Oscar Piastri|George Russell,0,0,0,0.5985,4.2
+xgboost,2025,14,Hungarian Grand Prix,Oscar Piastri,Lando Norris,Oscar Piastri|Lando Norris|Charles Leclerc,Lando Norris|Oscar Piastri|George Russell,0,0,0,0.8947,1.9
+grid,2025,15,Dutch Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Lando Norris|Max Verstappen,Oscar Piastri|Max Verstappen|Isack Hadjar,1,0,0,0.0842,6.0
+standings,2025,15,Dutch Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Lando Norris|Max Verstappen,Oscar Piastri|Max Verstappen|Isack Hadjar,1,0,0,0.0647,6.0
+xgboost,2025,15,Dutch Grand Prix,Oscar Piastri,Oscar Piastri,Oscar Piastri|Lando Norris|Max Verstappen,Oscar Piastri|Max Verstappen|Isack Hadjar,1,0,0,0.0962,5.7
+grid,2025,16,Italian Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,Max Verstappen|Lando Norris|Oscar Piastri,1,1,1,0.7008,3.0
+standings,2025,16,Italian Grand Prix,Oscar Piastri,Max Verstappen,Oscar Piastri|Lando Norris|Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,0,1,0,0.6842,3.2
+xgboost,2025,16,Italian Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Oscar Piastri|Charles Leclerc,Max Verstappen|Lando Norris|Oscar Piastri,0,0,0,0.7278,3.2
+grid,2025,17,Azerbaijan Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Carlos Sainz|Liam Lawson,Max Verstappen|George Russell|Carlos Sainz,1,0,0,0.7925,2.6
+standings,2025,17,Azerbaijan Grand Prix,Oscar Piastri,Max Verstappen,Oscar Piastri|Lando Norris|Max Verstappen,Max Verstappen|George Russell|Carlos Sainz,0,0,0,0.188,5.6
+xgboost,2025,17,Azerbaijan Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,Max Verstappen|George Russell|Carlos Sainz,1,0,0,0.6857,2.9
+grid,2025,18,Singapore Grand Prix,George Russell,George Russell,George Russell|Max Verstappen|Oscar Piastri,George Russell|Max Verstappen|Lando Norris,1,0,0,0.8241,2.3
+standings,2025,18,Singapore Grand Prix,Oscar Piastri,George Russell,Oscar Piastri|Lando Norris|Max Verstappen,George Russell|Max Verstappen|Lando Norris,0,0,0,0.7233,3.4
+xgboost,2025,18,Singapore Grand Prix,Max Verstappen,George Russell,Max Verstappen|Oscar Piastri|George Russell,George Russell|Max Verstappen|Lando Norris,0,0,0,0.8857,2.1
+grid,2025,19,United States Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Charles Leclerc,Max Verstappen|Lando Norris|Charles Leclerc,1,1,1,0.7534,2.9
+standings,2025,19,United States Grand Prix,Oscar Piastri,Max Verstappen,Oscar Piastri|Lando Norris|Max Verstappen,Max Verstappen|Lando Norris|Charles Leclerc,0,0,0,0.6571,3.6
+xgboost,2025,19,United States Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,Max Verstappen|Lando Norris|Charles Leclerc,1,0,0,0.7895,2.5
+grid,2025,20,Mexico City Grand Prix,Lando Norris,Lando Norris,Lando Norris|Charles Leclerc|Lewis Hamilton,Lando Norris|Charles Leclerc|Max Verstappen,1,0,0,0.7669,3.4
+standings,2025,20,Mexico City Grand Prix,Oscar Piastri,Lando Norris,Oscar Piastri|Lando Norris|Max Verstappen,Lando Norris|Charles Leclerc|Max Verstappen,0,0,0,0.5098,4.5
+xgboost,2025,20,Mexico City Grand Prix,Lando Norris,Lando Norris,Lando Norris|Max Verstappen|George Russell,Lando Norris|Charles Leclerc|Max Verstappen,1,0,0,0.7669,3.4
+grid,2025,21,São Paulo Grand Prix,Lando Norris,Lando Norris,Lando Norris|Andrea Kimi Antonelli|Charles Leclerc,Lando Norris|Andrea Kimi Antonelli|Max Verstappen,1,0,0,0.5158,3.3
+standings,2025,21,São Paulo Grand Prix,Lando Norris,Lando Norris,Lando Norris|Oscar Piastri|Max Verstappen,Lando Norris|Andrea Kimi Antonelli|Max Verstappen,1,0,0,0.5669,3.7
+xgboost,2025,21,São Paulo Grand Prix,Lando Norris,Lando Norris,Lando Norris|Oscar Piastri|Charles Leclerc,Lando Norris|Andrea Kimi Antonelli|Max Verstappen,1,0,0,0.5774,3.7
+grid,2025,22,Las Vegas Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Max Verstappen|Carlos Sainz,Max Verstappen|George Russell|Andrea Kimi Antonelli,0,0,0,0.1414,5.6
+standings,2025,22,Las Vegas Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Oscar Piastri|Max Verstappen,Max Verstappen|George Russell|Andrea Kimi Antonelli,0,0,0,0.2617,5.0
+xgboost,2025,22,Las Vegas Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Max Verstappen|George Russell,Max Verstappen|George Russell|Andrea Kimi Antonelli,0,0,0,0.3278,4.8
+grid,2025,23,Qatar Grand Prix,Oscar Piastri,Max Verstappen,Oscar Piastri|Lando Norris|Max Verstappen,Max Verstappen|Oscar Piastri|Carlos Sainz,0,0,0,0.6346,3.9
+standings,2025,23,Qatar Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Oscar Piastri|Max Verstappen,Max Verstappen|Oscar Piastri|Carlos Sainz,0,0,0,0.582,4.4
+xgboost,2025,23,Qatar Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Oscar Piastri|Lando Norris,Max Verstappen|Oscar Piastri|Carlos Sainz,1,0,0,0.6902,3.6
+grid,2025,24,Abu Dhabi Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,Max Verstappen|Oscar Piastri|Lando Norris,1,1,0,0.7744,2.6
+standings,2025,24,Abu Dhabi Grand Prix,Lando Norris,Max Verstappen,Lando Norris|Max Verstappen|Oscar Piastri,Max Verstappen|Oscar Piastri|Lando Norris,0,1,0,0.6617,3.7
+xgboost,2025,24,Abu Dhabi Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Lando Norris|Oscar Piastri,Max Verstappen|Oscar Piastri|Lando Norris,1,1,0,0.7835,2.5
+grid,2026,2,Chinese Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,1,1,1,0.598,3.818
+standings,2026,2,Chinese Grand Prix,George Russell,Andrea Kimi Antonelli,George Russell|Andrea Kimi Antonelli|Charles Leclerc,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,0,0,0,0.6454,3.909
+xgboost,2026,2,Chinese Grand Prix,George Russell,Andrea Kimi Antonelli,George Russell|Andrea Kimi Antonelli|Charles Leclerc,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,0,0,0,0.5381,4.545
+grid,2026,3,Japanese Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Oscar Piastri,Andrea Kimi Antonelli|Oscar Piastri|Charles Leclerc,1,0,0,0.9221,2.0
+standings,2026,3,Japanese Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Charles Leclerc,Andrea Kimi Antonelli|Oscar Piastri|Charles Leclerc,1,0,0,0.6804,2.818
+xgboost,2026,3,Japanese Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Charles Leclerc,Andrea Kimi Antonelli|Oscar Piastri|Charles Leclerc,1,0,0,0.8995,2.0
+grid,2026,4,Miami Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Max Verstappen|Charles Leclerc,Andrea Kimi Antonelli|Lando Norris|Oscar Piastri,1,0,0,0.7109,3.455
+standings,2026,4,Miami Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Charles Leclerc,Andrea Kimi Antonelli|Lando Norris|Oscar Piastri,1,0,0,0.6341,4.455
+xgboost,2026,4,Miami Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Max Verstappen|Charles Leclerc,Andrea Kimi Antonelli|Lando Norris|Oscar Piastri,1,0,0,0.607,4.364
+grid,2026,5,Canadian Grand Prix,George Russell,Andrea Kimi Antonelli,George Russell|Andrea Kimi Antonelli|Lando Norris,Andrea Kimi Antonelli|Lewis Hamilton|Max Verstappen,0,0,0,0.4026,5.273
+standings,2026,5,Canadian Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Charles Leclerc,Andrea Kimi Antonelli|Lewis Hamilton|Max Verstappen,1,0,0,0.5573,4.545
+xgboost,2026,5,Canadian Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Oscar Piastri,Andrea Kimi Antonelli|Lewis Hamilton|Max Verstappen,1,0,0,0.45,5.091
+grid,2026,6,Monaco Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Max Verstappen|Lewis Hamilton,Andrea Kimi Antonelli|Lewis Hamilton|Isack Hadjar,1,0,0,0.3721,5.091
+standings,2026,6,Monaco Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,Andrea Kimi Antonelli|Lewis Hamilton|Isack Hadjar,1,0,0,0.2468,6.455
+xgboost,2026,6,Monaco Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Lewis Hamilton|Charles Leclerc,Andrea Kimi Antonelli|Lewis Hamilton|Isack Hadjar,1,0,0,0.354,5.636
+grid,2026,7,Barcelona Grand Prix,George Russell,Lewis Hamilton,George Russell|Lewis Hamilton|Andrea Kimi Antonelli,Lewis Hamilton|George Russell|Lando Norris,0,0,0,0.7414,3.091
+standings,2026,7,Barcelona Grand Prix,Andrea Kimi Antonelli,Lewis Hamilton,Andrea Kimi Antonelli|Lewis Hamilton|George Russell,Lewis Hamilton|George Russell|Lando Norris,0,0,0,0.7075,3.273
+xgboost,2026,7,Barcelona Grand Prix,Lewis Hamilton,Lewis Hamilton,Lewis Hamilton|George Russell|Andrea Kimi Antonelli,Lewis Hamilton|George Russell|Lando Norris,1,0,0,0.7527,3.0
+grid,2026,8,Austrian Grand Prix,George Russell,George Russell,George Russell|Charles Leclerc|Lewis Hamilton,George Russell|Max Verstappen|Andrea Kimi Antonelli,1,0,0,0.9368,1.818
+standings,2026,8,Austrian Grand Prix,Andrea Kimi Antonelli,George Russell,Andrea Kimi Antonelli|Lewis Hamilton|George Russell,George Russell|Max Verstappen|Andrea Kimi Antonelli,0,0,0,0.8679,2.545
+xgboost,2026,8,Austrian Grand Prix,George Russell,George Russell,George Russell|Andrea Kimi Antonelli|Lewis Hamilton,George Russell|Max Verstappen|Andrea Kimi Antonelli,1,0,0,0.9232,2.091
+grid,2026,9,British Grand Prix,Andrea Kimi Antonelli,Charles Leclerc,Andrea Kimi Antonelli|Charles Leclerc|Lewis Hamilton,Charles Leclerc|George Russell|Lewis Hamilton,0,0,0,0.5788,4.364
+standings,2026,9,British Grand Prix,Andrea Kimi Antonelli,Charles Leclerc,Andrea Kimi Antonelli|Lewis Hamilton|George Russell,Charles Leclerc|George Russell|Lewis Hamilton,0,0,0,0.572,4.364
+xgboost,2026,9,British Grand Prix,Andrea Kimi Antonelli,Charles Leclerc,Andrea Kimi Antonelli|Lewis Hamilton|Charles Leclerc,Charles Leclerc|George Russell|Lewis Hamilton,0,0,0,0.6465,4.0
+grid,2026,10,Belgian Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Max Verstappen|George Russell,Andrea Kimi Antonelli|Charles Leclerc|Max Verstappen,1,0,0,0.6194,2.909
+standings,2026,10,Belgian Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Lewis Hamilton|George Russell,Andrea Kimi Antonelli|Charles Leclerc|Max Verstappen,1,0,0,0.7233,2.727
+xgboost,2026,10,Belgian Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Max Verstappen|George Russell,Andrea Kimi Antonelli|Charles Leclerc|Max Verstappen,1,0,0,0.7516,2.455
+grid,2026,11,Hungarian Grand Prix,Lando Norris,Lando Norris,Lando Norris|Charles Leclerc|Oscar Piastri,Lando Norris|Max Verstappen|Andrea Kimi Antonelli,1,0,0,0.7708,2.455
+standings,2026,11,Hungarian Grand Prix,Andrea Kimi Antonelli,Lando Norris,Andrea Kimi Antonelli|Lewis Hamilton|George Russell,Lando Norris|Max Verstappen|Andrea Kimi Antonelli,0,0,0,0.7335,3.364
+xgboost,2026,11,Hungarian Grand Prix,Lando Norris,Lando Norris,Lando Norris|Charles Leclerc|Oscar Piastri,Lando Norris|Max Verstappen|Andrea Kimi Antonelli,1,0,0,0.7335,2.909
+grid,2026,12,Dutch Grand Prix,Lando Norris,Lando Norris,Lando Norris|George Russell|Andrea Kimi Antonelli,Lando Norris|Andrea Kimi Antonelli|George Russell,1,1,0,0.7516,2.818
+standings,2026,12,Dutch Grand Prix,Andrea Kimi Antonelli,Lando Norris,Andrea Kimi Antonelli|Lewis Hamilton|George Russell,Lando Norris|Andrea Kimi Antonelli|George Russell,0,0,0,0.6296,3.818
+xgboost,2026,12,Dutch Grand Prix,Lando Norris,Lando Norris,Lando Norris|George Russell|Andrea Kimi Antonelli,Lando Norris|Andrea Kimi Antonelli|George Russell,1,1,0,0.7244,3.091
+grid,2026,13,Italian Grand Prix,Pierre Gasly,Andrea Kimi Antonelli,Pierre Gasly|George Russell|Charles Leclerc,Andrea Kimi Antonelli|George Russell|Max Verstappen,0,0,0,0.5008,3.818
+standings,2026,13,Italian Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Lewis Hamilton|George Russell,Andrea Kimi Antonelli|George Russell|Max Verstappen,1,0,0,0.7222,3.091
+xgboost,2026,13,Italian Grand Prix,George Russell,Andrea Kimi Antonelli,George Russell|Charles Leclerc|Lewis Hamilton,Andrea Kimi Antonelli|George Russell|Max Verstappen,0,0,0,0.6985,2.727
+grid,2026,14,Spanish Grand Prix,Lando Norris,Andrea Kimi Antonelli,Lando Norris|Andrea Kimi Antonelli|Max Verstappen,Andrea Kimi Antonelli|Max Verstappen|Lando Norris,0,1,0,0.7764,2.182
+standings,2026,14,Spanish Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Lewis Hamilton|George Russell,Andrea Kimi Antonelli|Max Verstappen|Lando Norris,1,0,0,0.6781,3.091
+xgboost,2026,14,Spanish Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Lando Norris|Lewis Hamilton,Andrea Kimi Antonelli|Max Verstappen|Lando Norris,1,0,0,0.7662,2.0
+grid,2026,15,Azerbaijan Grand Prix,George Russell,George Russell,George Russell|Charles Leclerc|Oscar Piastri,George Russell|Max Verstappen|Isack Hadjar,1,0,0,0.485,4.909
+standings,2026,15,Azerbaijan Grand Prix,Andrea Kimi Antonelli,George Russell,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,George Russell|Max Verstappen|Isack Hadjar,0,0,0,0.6126,4.545
+xgboost,2026,15,Azerbaijan Grand Prix,George Russell,George Russell,George Russell|Charles Leclerc|Oscar Piastri,George Russell|Max Verstappen|Isack Hadjar,1,0,0,0.5663,4.545

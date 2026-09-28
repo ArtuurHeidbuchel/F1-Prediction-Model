@@ -1,0 +1,9 @@
+model,baseline,metric,unit,diff,ci_low,ci_high,races
+xgboost,grid,winner_hit_rate,pp,-3.333,-18.333,11.667,60
+xgboost,standings,winner_hit_rate,pp,21.667,8.333,35.0,60
+xgboost,grid,podium_hit_rate,pp,-8.333,-16.667,0.0,60
+xgboost,standings,podium_hit_rate,pp,10.0,0.0,20.0,60
+xgboost,grid,spearman,,0.019,-0.002,0.041,60
+xgboost,standings,spearman,,0.075,0.043,0.105,60
+xgboost,grid,mae_positions,,-0.027,-0.173,0.122,60
+xgboost,standings,mae_positions,,-0.562,-0.768,-0.357,60

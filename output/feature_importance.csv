@@ -1,0 +1,15 @@
+model,feature,importance
+xgboost,team_pts5,0.3223
+xgboost,grid_clean,0.2876
+xgboost,team_form5,0.106
+xgboost,qgap_pct,0.0718
+xgboost,standing_before,0.0575
+xgboost,drv_qgap5,0.0373
+xgboost,drv_form5,0.0261
+xgboost,pts_before,0.0238
+xgboost,team_qgap5,0.0151
+xgboost,drv_circuit_avg,0.0141
+xgboost,qgap_vs_team,0.0103
+xgboost,drv_dnf10,0.01
+xgboost,drv_vs_team5,0.0093
+xgboost,grid_vs_team,0.0089

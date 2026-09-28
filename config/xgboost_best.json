@@ -1,0 +1,17 @@
+{
+  "feature_set": "v2",
+  "target": "position",
+  "params": {
+    "n_estimators": 100,
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 20
+  },
+  "tune_spearman": 0.6376,
+  "tuned_on": [
+    2022,
+    2023
+  ]
+}
