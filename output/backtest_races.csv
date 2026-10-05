@@ -179,3 +179,6 @@ xgboost,2026,14,Spanish Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,A
 grid,2026,15,Azerbaijan Grand Prix,George Russell,George Russell,George Russell|Charles Leclerc|Oscar Piastri,George Russell|Max Verstappen|Isack Hadjar,1,0,0,0.485,4.909
 standings,2026,15,Azerbaijan Grand Prix,Andrea Kimi Antonelli,George Russell,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,George Russell|Max Verstappen|Isack Hadjar,0,0,0,0.6126,4.545
 xgboost,2026,15,Azerbaijan Grand Prix,George Russell,George Russell,George Russell|Charles Leclerc|Oscar Piastri,George Russell|Max Verstappen|Isack Hadjar,1,0,0,0.5663,4.545
+grid,2026,16,Bahrain Grand Prix in Malaysia,Max Verstappen,Max Verstappen,Max Verstappen|Lewis Hamilton|Andrea Kimi Antonelli,Max Verstappen|Andrea Kimi Antonelli|Lewis Hamilton,1,1,0,0.6544,3.909
+standings,2026,16,Bahrain Grand Prix in Malaysia,Andrea Kimi Antonelli,Max Verstappen,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,Max Verstappen|Andrea Kimi Antonelli|Lewis Hamilton,0,0,0,0.6307,3.545
+xgboost,2026,16,Bahrain Grand Prix in Malaysia,Andrea Kimi Antonelli,Max Verstappen,Andrea Kimi Antonelli|Lewis Hamilton|Max Verstappen,Max Verstappen|Andrea Kimi Antonelli|Lewis Hamilton,0,1,0,0.7019,3.727
