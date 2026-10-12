@@ -182,3 +182,6 @@ xgboost,2026,15,Azerbaijan Grand Prix,George Russell,George Russell,George Russe
 grid,2026,16,Bahrain Grand Prix in Malaysia,Max Verstappen,Max Verstappen,Max Verstappen|Lewis Hamilton|Andrea Kimi Antonelli,Max Verstappen|Andrea Kimi Antonelli|Lewis Hamilton,1,1,0,0.6544,3.909
 standings,2026,16,Bahrain Grand Prix in Malaysia,Andrea Kimi Antonelli,Max Verstappen,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,Max Verstappen|Andrea Kimi Antonelli|Lewis Hamilton,0,0,0,0.6307,3.545
 xgboost,2026,16,Bahrain Grand Prix in Malaysia,Andrea Kimi Antonelli,Max Verstappen,Andrea Kimi Antonelli|Lewis Hamilton|Max Verstappen,Max Verstappen|Andrea Kimi Antonelli|Lewis Hamilton,0,1,0,0.7019,3.727
+grid,2026,17,Singapore Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Charles Leclerc|Lewis Hamilton,Max Verstappen|Charles Leclerc|Andrea Kimi Antonelli,1,0,0,0.7527,3.0
+standings,2026,17,Singapore Grand Prix,Andrea Kimi Antonelli,Max Verstappen,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,Max Verstappen|Charles Leclerc|Andrea Kimi Antonelli,0,0,0,0.8035,3.273
+xgboost,2026,17,Singapore Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Andrea Kimi Antonelli|Charles Leclerc,Max Verstappen|Charles Leclerc|Andrea Kimi Antonelli,1,1,0,0.9051,2.273
