@@ -185,3 +185,6 @@ xgboost,2026,16,Bahrain Grand Prix in Malaysia,Andrea Kimi Antonelli,Max Verstap
 grid,2026,17,Singapore Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Charles Leclerc|Lewis Hamilton,Max Verstappen|Charles Leclerc|Andrea Kimi Antonelli,1,0,0,0.7527,3.0
 standings,2026,17,Singapore Grand Prix,Andrea Kimi Antonelli,Max Verstappen,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,Max Verstappen|Charles Leclerc|Andrea Kimi Antonelli,0,0,0,0.8035,3.273
 xgboost,2026,17,Singapore Grand Prix,Max Verstappen,Max Verstappen,Max Verstappen|Andrea Kimi Antonelli|Charles Leclerc,Max Verstappen|Charles Leclerc|Andrea Kimi Antonelli,1,1,0,0.9051,2.273
+grid,2026,18,United States Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Max Verstappen|Isack Hadjar,Andrea Kimi Antonelli|Charles Leclerc|Max Verstappen,1,0,0,0.8588,2.182
+standings,2026,18,United States Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|George Russell|Lewis Hamilton,Andrea Kimi Antonelli|Charles Leclerc|Max Verstappen,1,0,0,0.8475,2.364
+xgboost,2026,18,United States Grand Prix,Andrea Kimi Antonelli,Andrea Kimi Antonelli,Andrea Kimi Antonelli|Max Verstappen|Charles Leclerc,Andrea Kimi Antonelli|Charles Leclerc|Max Verstappen,1,1,0,0.869,2.091
