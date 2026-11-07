@@ -5,5 +5,5 @@ xgboost,grid,podium_hit_rate,pp,-4.688,-14.062,4.688,64
 xgboost,standings,podium_hit_rate,pp,12.5,0.0,23.438,64
 xgboost,grid,spearman,,0.023,0.002,0.045,64
 xgboost,standings,spearman,,0.073,0.043,0.104,64
-xgboost,grid,mae_positions,,-0.052,-0.191,0.093,64
-xgboost,standings,mae_positions,,-0.538,-0.735,-0.343,64
+xgboost,grid,mae_positions,,-0.048,-0.185,0.096,64
+xgboost,standings,mae_positions,,-0.54,-0.736,-0.346,64
