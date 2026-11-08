@@ -32,13 +32,19 @@ class XGBoostModel(BaseModel):
             return cls(cfg["feature_set"], cfg["target"], cfg["params"])
         return cls()
 
+    def _numeric(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Force feature columns to float so object dtypes (None/strings) become NaN."""
+        return df[self.features].apply(pd.to_numeric, errors="coerce").astype("float64")
+
     def fit(self, train: pd.DataFrame) -> None:
         y = train["position"] - train["grid_clean"] if self.target == "delta" else train["position"]
-        self._model = XGBRegressor(random_state=42, **self.params).fit(train[self.features], y)
+        X = self._numeric(train)
+        self._model = XGBRegressor(random_state=42, **self.params).fit(X, y)
 
     def predict(self, race: pd.DataFrame) -> np.ndarray:
-        pred = self._model.predict(race[self.features])
+        pred = self._model.predict(self._numeric(race))
         return pred + race["grid_clean"].to_numpy() if self.target == "delta" else pred
 
     def feature_importances(self) -> pd.Series:
         return pd.Series(self._model.feature_importances_, index=self.features)
+
