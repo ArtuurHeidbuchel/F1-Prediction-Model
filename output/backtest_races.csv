@@ -193,4 +193,4 @@ standings,2026,19,Mexico City Grand Prix,Andrea Kimi Antonelli,Max Verstappen,An
 xgboost,2026,19,Mexico City Grand Prix,Lewis Hamilton,Max Verstappen,Lewis Hamilton|Andrea Kimi Antonelli|George Russell,Max Verstappen|Lewis Hamilton|Andrea Kimi Antonelli,0,0,0,0.7538,3.818
 grid,2026,20,Brazilian Grand Prix,Lando Norris,Lando Norris,Lando Norris|Andrea Kimi Antonelli|Liam Lawson,Lando Norris|Max Verstappen|Isack Hadjar,1,0,0,0.415,5.455
 standings,2026,20,Brazilian Grand Prix,Andrea Kimi Antonelli,Lando Norris,Andrea Kimi Antonelli|Max Verstappen|Lewis Hamilton,Lando Norris|Max Verstappen|Isack Hadjar,0,0,0,0.8826,2.364
-xgboost,2026,20,Brazilian Grand Prix,Andrea Kimi Antonelli,Lando Norris,Andrea Kimi Antonelli|Lando Norris|George Russell,Lando Norris|Max Verstappen|Isack Hadjar,0,0,0,0.8656,2.636
+xgboost,2026,20,Brazilian Grand Prix,Andrea Kimi Antonelli,Lando Norris,Andrea Kimi Antonelli|Lando Norris|George Russell,Lando Norris|Max Verstappen|Isack Hadjar,0,0,0,0.8566,2.727
