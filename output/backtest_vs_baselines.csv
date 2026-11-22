@@ -1,9 +1,9 @@
 model,baseline,metric,unit,diff,ci_low,ci_high,races
-xgboost,grid,winner_hit_rate,pp,-6.154,-20.0,7.692,65
-xgboost,standings,winner_hit_rate,pp,21.538,9.231,33.846,65
-xgboost,grid,podium_hit_rate,pp,-4.615,-13.846,4.615,65
-xgboost,standings,podium_hit_rate,pp,12.308,1.538,24.615,65
-xgboost,grid,spearman,,0.03,0.006,0.054,65
-xgboost,standings,spearman,,0.071,0.042,0.101,65
-xgboost,grid,mae_positions,,-0.089,-0.25,0.069,65
-xgboost,standings,mae_positions,,-0.526,-0.722,-0.329,65
+xgboost,grid,winner_hit_rate,pp,-6.061,-19.697,7.576,66
+xgboost,standings,winner_hit_rate,pp,22.727,9.091,36.364,66
+xgboost,grid,podium_hit_rate,pp,-4.545,-13.636,4.545,66
+xgboost,standings,podium_hit_rate,pp,12.121,0.0,24.242,66
+xgboost,grid,spearman,,0.032,0.009,0.056,66
+xgboost,standings,spearman,,0.069,0.039,0.099,66
+xgboost,grid,mae_positions,,-0.098,-0.252,0.06,66
+xgboost,standings,mae_positions,,-0.512,-0.71,-0.315,66
